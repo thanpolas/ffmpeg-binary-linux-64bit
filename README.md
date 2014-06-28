@@ -30,7 +30,7 @@ console.log(ffmpegBin.ffprobe());
 
 The build was provided by John Vansickle and fetched using the url: `http://bensbit.co.uk/ffmpeg-2.1.3-64bit-static.tar.bz2`. The included `readme.txt` follows:
 
-
+```
     ______ ______                                  __            _  __     __
    / ____// ____/____ ___   ____   ___   ____ _   / /_   __  __ (_)/ /____/ /
   / /_   / /_   / __ `__ \ / __ \ / _ \ / __ `/  / __ \ / / / // // // __  / 
@@ -59,26 +59,23 @@ The build was provided by John Vansickle and fetched using the url: `http://bens
        libvo-amrwbenc: 0.1.3-1
     libopencore-amrnb: 0.1.3-2
     libopencore-amrwb: 0.1.3-2
+```
 
 Note: ffmpeg now uses libx264's internal presets with the -preset flag.
-      Look at `ffmpeg -h encoder=libx264 | less` for a complete list of libx264 options.
+Look at `ffmpeg -h encoder=libx264 | less` for a complete list of libx264 options.
 
+This build should be stable but if you do run into problems *DO NOT* file a bug report against it! You should first check out the source from git://source.ffmpeg.org/ffmpeg.git, build it and see if the problem persists. If so, then and only then should you file a bug report using the version you compiled.
 
-      This build should be stable but if you do run into problems *DO NOT* file a bug report against           
-      it! You should first check out the source from git://source.ffmpeg.org/ffmpeg.git, build it and           
-      see if the problem persists. If so, then and only then should you file a bug report using the
-      version you compiled.
+The source code for FFmpeg and all libs can be downloaded here.
+http://dl.dropbox.com/u/24633983/static-sources.7z
 
-      The source code for FFmpeg and all libs can be downloaded here.
-      http://dl.dropbox.com/u/24633983/static-sources.7z
+Donate a few bucks via paypal if you've found this build helpful. 
+Donation link: http://goo.gl/1Ol8N
 
-      Donate a few bucks via paypal if you've found this build helpful. 
-      Donation link: http://goo.gl/1Ol8N
-
-      Questions? Comments?
-      email: john.vansickle@gmail.com
-        irc: irc://irc.freenode.net #ffmpeg #libav nickname: relaxed
-  build url:  http://johnvansickle.com/ffmpeg
+Questions? Comments?
+email: john.vansickle@gmail.com
+irc: irc://irc.freenode.net #ffmpeg #libav nickname: relaxed
+build url:  http://johnvansickle.com/ffmpeg
 
 
 ## Release History
