@@ -32,3 +32,12 @@ var ffmpegBin = module.exports = function() {
 ffmpegBin.ffprobe = function() {
   return path.join(ffmpegPath, 'ffprobe');
 };
+
+/**
+ * Just return the base directory of the ffmpeg binaries.
+ *
+ * @return {string} the base directory of the ffmpeg binaries.
+ */
+ffmpegBin.base = function() {
+  return ffmpegPath;
+};
