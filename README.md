@@ -24,6 +24,10 @@ console.log(ffmpegBin());
 
 console.log(ffmpegBin.ffprobe());
 // prints the full path to the "ffmprobe" binary
+
+console.log(ffmpegBin.base());
+// prints the base path of the ffmpeg binaries
+
 ```
 
 ## Credits
