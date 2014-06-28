@@ -1,7 +1,7 @@
 {
   "private": true,
   "name": "ffmpeg-binary-linux-64bit",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "main": "./",
   "description": "Provides staticly compiled binaries for linux environments.",
   "homepage": "https://github.com/thanpolas/ffmpeg-binary-linux-64bit",
