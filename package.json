@@ -1,5 +1,4 @@
 {
-  "private": true,
   "name": "ffmpeg-binary-linux-64bit",
   "version": "0.1.0",
   "main": "./",
