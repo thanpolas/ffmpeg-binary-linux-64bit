@@ -71,15 +71,17 @@ Look at `ffmpeg -h encoder=libx264 | less` for a complete list of libx264 option
 This build should be stable but if you do run into problems *DO NOT* file a bug report against it! You should first check out the source from git://source.ffmpeg.org/ffmpeg.git, build it and see if the problem persists. If so, then and only then should you file a bug report using the version you compiled.
 
 The source code for FFmpeg and all libs can be downloaded here.
+
 http://dl.dropbox.com/u/24633983/static-sources.7z
 
 Donate a few bucks via paypal if you've found this build helpful. 
+
 Donation link: http://goo.gl/1Ol8N
 
 Questions? Comments?
-email: john.vansickle@gmail.com
-irc: irc://irc.freenode.net #ffmpeg #libav nickname: relaxed
-build url:  http://johnvansickle.com/ffmpeg
+- email: john.vansickle@gmail.com
+- irc: irc://irc.freenode.net #ffmpeg #libav nickname: relaxed
+- build url:  http://johnvansickle.com/ffmpeg
 
 
 ## Release History
