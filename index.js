@@ -1,12 +1,34 @@
 /*
- * __proto__
- * Node Schema Abstraction
- * https://github.com/thanpolas/__proto__
+ * ffmpeg-binary-linux-64bit
+ * Provides staticly compiled binaries for linux environments.
+ * https://github.com/thanpolas/ffmpeg-binary-linux-64bit
  *
  * Copyright (c) 2014 Thanasis Polychronakis
  * Licensed under the MIT license.
  */
+
 /**
- * @fileOverview __proto__ bootstrap module.
+ * @fileOverview ffmpeg-binary-linux-64bit bootstrap module.
  */
-module.exports = require('./lib/__proto__');
+
+var path = require('path');
+
+var ffmpegPath = path.join(__dirname, '/ffmpeg');
+
+/**
+ * Returns the full path to the "ffmpeg" binary.
+ *
+ * @return {string} The full path to the "ffmpeg" binary.
+ */
+var ffmpegBin = module.exports = function() {
+  return path.join(ffmpegPath, 'ffmpeg');
+};
+
+/**
+ * Returns the full path to the "ffprobe" binary.
+ *
+ * @return {string} The full path to the "ffprobe" binary.
+ */
+ffmpegBin.ffprobe = function() {
+  return path.join(ffmpegPath, 'ffprobe');
+};
